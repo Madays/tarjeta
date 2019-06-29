@@ -1,0 +1,62 @@
+:root {
+    --main-color: orangered;
+}
+
+a {
+    text-decoration: none;
+}
+.nkn-center {
+    text-align: center;
+}
+.img-plato-trucha {
+    width: 120px;
+    height: 80px;
+}
+.icono-bailable {
+    width: 25px;
+    height: 25px;   
+    padding-right: 10px; 
+}
+.my-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-tarjeta {
+    border: solid 1px var(--main-color);
+    width: 450px;
+    padding: 16px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;  
+    padding: 10px;  
+}
+ h1 {
+    font-family: 'Kalam', cursive;
+    color: var(--main-color);
+ }
+.main-header {
+    display: flex;
+    justify-content: center;  
+    padding: 10px;    
+}
+
+.main-header p {
+    margin: 0;
+}
+.data {
+    padding: 10px;
+    width: 60%;
+}
+.imagen {
+    border-left: solid 1px var(--main-color);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;    
+    align-items: center;
+}
